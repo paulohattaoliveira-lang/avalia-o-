@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Sobrevivência e Colonização em Marte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>MISSÃO MARTE</h1>
+        <p>O Guia Interativo para a Colonização do Planeta Vermelho</p>
+    </header>
+
+    <nav>
+        <button onclick="scrollToSection('visao-geral')">Visão Geral</button>
+        <button onclick="scrollToSection('habitacao')">Habitação</button>
+        <button onclick="scrollToSection('alimentacao')">Alimentação</button>
+        <button onclick="scrollToSection('vestuario')">Vestuário</button>
+    </nav>
+
+    <main class="container">
+        
+        <!-- Visão Geral -->
+        <section id="visao-geral" class="card">
+            <h2>1. Visão Geral do Planeta</h2>
+            <div class="content-split">
+                <div>
+                    <p>Marte é um deserto frio e seco. Sua atmosfera é extremamente fina, composta por 95% de dióxido de carbono ($CO_2$).</p>
+                    <ul>
+                        <li><strong>Temperatura Média:</strong> -60 °C (podendo variar de 20 °C a -125 °C).</li>
+                        <li><strong>Gravidade:</strong> 38% da gravidade da Terra.</li>
+                        <li><strong>Paisagem:</strong> Cânions profundos, vulcões gigantes (como o Olympus Mons) e tempestades de poeira globais.</li>
+                    </ul>
+                </div>
+                <div>
+                    <Image src="image_agent_tag_8377363802629165977" alt="Superfície árida e rochosa de Marte com tom avermelhado" caption="Superfície marciana e paisagem rochosa" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Habitação -->
+        <section id="habitacao" class="card">
+            <h2>2. Habitação (Casas Marcianas)</h2>
+            <p>Para resistir à radiação cósmica solar e ao frio extremo, as construções utilizam soluções de engenharia avançada:</p>
+            <div class="grid">
+                <div class="box">
+                    <h3>Construções Subterrâneas</h3>
+                    <p>Aproveitamento de tubos de lava vulcânica para proteger a população da radiação direta.</p>
+                </div>
+                <div class="box">
+                    <h3>Impressão 3D Local</h3>
+                    <p>Uso do regolito (solo marciano) misturado com polímeros para criar cúpulas espessas e resistentes.</p>
+                </div>
+                <div class="box">
+                    <h3>Habitats Infláveis</h3>
+                    <p>Módulos pressurizados expansíveis e revestidos com camadas isolantes de regolito ou gelo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alimentação -->
+        <section id="alimentacao" class="card">
+            <h2>3. Alimentação na Colônia</h2>
+            <div class="content-split">
+                <div>
+                    <p>A produção de alimentos em Marte combina biotecnologia e sistemas controlados:</p>
+                    <ul>
+                        <li><strong>Estufas Hidropónicas e Aeropónicas:</strong> Cultivo sem solo, otimizando o uso de água ricamente reciclada. Cultivos focados em batata, tomate, spirulina e legumes de alto valor nutritivo.</li>
+                        <li><strong>Proteína de Laboratório:</strong> Produção de carne cultivada celularmente e cultivo de insetos em ambiente controlado.</li>
+                        <li><strong>Tratamento do Solo:</strong> Dessalinização e remoção de percloratos do solo para possibilitar agricultura biológica no futuro.</li>
+                    </ul>
+                </div>
+                <div>
+                    <Image src="image_agent_tag_8377363802629168030" alt="Conceito de estufas automatizadas em Marte" caption="Estufas hidropónicas pressurizadas" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Vestuário -->
+        <section id="vestuario" class="card">
+            <h2>4. Vestuário e Trajes</h2>
+            <div class="grid">
+                <div class="box">
+                    <h3>Trajes Externos (EVA)</h3>
+                    <p>Projetados para suportar o vácuo relativo e filtrar a radiação. Utilizam pressurização mecânica direta ao corpo para maior mobilidade, além de sistemas de aquecimento integrado.</p>
+                </div>
+                <div class="box">
+                    <h3>Roupas Internas</h3>
+                    <p>Feitas de tecidos sintéticos antibacterianos com fios de prata para evitar o acúmulo de odores e reduzir a necessidade de lavagem contínua em ambientes com limitação de água.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto Guia de Marte &copy; 2026 - Módulos de Colonização Espacial</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
